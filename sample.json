@@ -1,0 +1,60 @@
+{
+  "projectName": "ExampleApp",
+  "version": "2.1.3",
+  "author": {
+    "name": "Example Author",
+    "email": "support@exampleapp.com",
+    "homepage": "https://www.exampleapp.com"
+  },
+  "database": {
+    "type": "postgresql",
+    "host": "db.example.com",
+    "port": 5432,
+    "credentials": {
+      "user": "dbuser",
+      "password": "secretpassword"
+    },
+    "pool": {
+      "max": 20,
+      "min": 5,
+      "timeoutSec": 300
+    }
+  },
+  "features": {
+    "authentication": true,
+    "twoFactorAuth": false,
+    "socialIntegration": {
+      "facebook": false,
+      "twitter": true
+    }
+  },
+  "allowedOrigins": [
+    "https://www.allowed-origin1.com",
+    "https://www.allowed-origin2.com"
+  ],
+  "users": [
+    {
+      "username": "alice",
+      "roles": ["admin", "user"],
+      "profile": {
+        "fullName": "Alice Smith",
+        "email": "alice@example.com",
+        "phone": "+1234567890"
+      }
+    },
+    {
+      "username": "bob",
+      "roles": ["user"],
+      "profile": {
+        "fullName": "Bob Jones",
+        "email": "bob@example.com",
+        "phone": "+0987654321"
+      }
+    }
+  ],
+  "thresholds": {
+    "warning": 75,
+    "critical": 90
+  },
+  "maintenanceMode": false
+}
