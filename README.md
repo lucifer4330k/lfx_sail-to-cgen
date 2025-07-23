@@ -90,6 +90,4 @@ To submit this project as part of your **LFX Mentorship Proposal**:
 
 ## 🙋‍♂️ Author
 
-**Debanjan Maji**  
-Email: [YourEmail@example.com]  
-GitHub: [https://github.com/your-username]  
+**Debanjan Maji**   
